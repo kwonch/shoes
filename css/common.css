@@ -6,7 +6,7 @@ a{text-decoration: none;}
 
 header{width:1110px; height:115px;margin:0 auto; 
    }
-    #logo{width:150px;height:25px;margin:0 auto;}
+    #logo{width:150px;height:25px;margin:10px auto 0px;}
     .nav1{ height:20px;}
     .nav1 ul li{float:right; padding:20px; 
         margin-top:-45px;}

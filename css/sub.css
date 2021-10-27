@@ -132,7 +132,7 @@ margin:50px 100px; float:left;}
            margin:0 auto;  width: 1120px;
 }
 
-#section3{width:1120px; height:600px;  margin:0 0 0 500px; 
+#section3{width:1120px; height:600px;  margin:0 0 0 560px; 
           
 }
 #Explanation ul{width:1120px; height:50px; 
@@ -175,7 +175,7 @@ margin:50px 100px; float:left;}
 .Explanation2 ul{width:1120px; height:50px; 
                ;float:left;}   
 
-#section4{width: 1120px;height:600px; margin:0 0 0 500px;
+#section4{width: 1120px;height:600px; margin:0 0 0  560px;
            display: none;
         }
 #section4 .Explanation2 ul{width:1120px; height:50px; 
@@ -217,7 +217,7 @@ margin:50px 100px; float:left;}
   margin-bottom: -50px;}
 
   #section5{width: 1120px; height: 600px;
-             display: none;    margin:0 0 0 500px;   
+             display: none;    margin:0 0 0  560px;   
   }
   #section5 .Explanation3 ul{width: 1120px; height: 50px; margin:40px auto 0px; float:left;}
   #section5 .Explanation3 ul li{width:260px; height:100%;

@@ -6,6 +6,8 @@
   <title>KREAM</title>
   <link rel="stylesheet" type="text/css" href="css/common.css">
   <link rel="stylesheet" type="text/css" href="css/sub.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
@@ -79,7 +81,7 @@
         </tr>
         <tr>
           <td>배송</td>
-          <td>무료배송<img class="shipping" src="sub/shipping_icon.png" alt="shipping"></td>
+          <td class="free_shipping">무료배송<img class="shipping" src="sub/shipping_icon.png" alt="shipping"></td>
 
         </tr>
         <tr>
@@ -152,29 +154,29 @@
   </div>
 </div>
 
-
+<div class="bordertop"></div>
 <div id="section3">
   <div id="Explanation">
 
     <h3>구매전 꼭 확인해 주세요!</h3>
     <ul>
-      <li>배송 기간 안내</li>
-      <li>검수 안내</li>
-      <li>구매 환불/취소/교환 안내</li>
-      <li>상품 후기</li>
+      <li class="b1">배송 기간 안내</li>
+      <li  class="b2">검수 안내</li>
+      <li class="b3"> 구매 환불/취소/교환 안내</li>
+   
     </ul>
   </div>
   
   <div id="textbox">
-    <h3>배송 기간 안내</h3>
+    <h3 id="shipping">배송 기간 안내</h3>
     <ul>
-      <li>KREAM은 최대한 빠르게 모든 상품을 배송하기 위해 노력하고 있습니다. 배송 시간은 판매자가 검수를 위하여 상품을
+      <li>KREAM은 최대한 빠르게 모든 상품을 배송하기 위해 노력하고 있습니다. 배송 시간은 판매자가 검수를 위하여 상품을<br>
         검수센터로 보내는 속도에 따라 차이가 있습니다.</li>
-      <li>거래가 체결된 시점부터 48시간(일요일•공휴일 제외) 내에 판매자가 상품을 발송해야 하며, 통상적으로 발송 후 1-2일 내에 KREAM 검수센터에 도착합니다.</li>
+      <li>거래가 체결된 시점부터 48시간(일요일•공휴일 제외) 내에 판매자가 상품을 발송해야 하며, 통상적으로 발송 후 1-2일 내에 <br> KREAM 검수센터에 도착합니다.</li>
       <li> 검수센터에 도착한 상품은 입고 완료 후 3영업일 이내에 검수를 진행합니다. 검수 합격시 배송을 준비합니다.
-        * 상품 종류 및 상태에 따라 검수 소요 시간은 상이할 수 있으며, 구매의사 확인에 해당할 경우 구매자와 상담 진행으로 인해 지연이 발생할 수 있습니다.</li>
+        * 상품 종류 <br> 및 상태에 따라 검수 소요 시간은 상이할 수 있으며, 구매의사 확인에 해당할 경우 구매자와 상담 진행으로 인해 지연이 <br> 발생할 수 있습니다.</li>
       <li> 검수센터 출고는 매 영업일에 진행하고 있으며,
-        출고 마감시간은 오후 5시입니다. 출고 마감시간 이후 검수 완료건은 운송장번호는 입력되지만 다음 영업일에 출고됩니다.</li>
+        출고 마감시간은 오후 5시입니다. 출고 마감시간 이후 검수 완료건은<br> 운송장번호는 입력되지만  다음 영업일에 출고됩니다.</li>
     </ul>
   </div>
 
@@ -184,10 +186,10 @@
   <div class="Explanation2">
     <h3>구매전 꼭 확인해 주세요!</h3>
     <ul>
-      <li>배송 기간 안내</li>
-      <li>검수 안내</li>
-      <li>구매 환불/취소/교환 안내</li>
-      <li>상품 후기</li>
+      <li class="b1">배송 기간 안내</li>
+      <li  class="b2">검수 안내</li>
+      <li class="b3"> 구매 환불/취소/교환 안내</li>
+      
     </ul>
   </div>
   <div class="textbox2">
@@ -211,10 +213,10 @@
   <div class="Explanation3">
     <h3>구매전 꼭 확인해 주세요!</h3>
     <ul>
-      <li>배송 기간 안내</li>
-      <li>검수 안내</li>
-      <li>구매 환불/취소/교환 안내</li>
-      <li>상품 후기</li>
+      <li class="b1">배송 기간 안내</li>
+      <li  class="b2">검수 안내</li>
+      <li class="b3"> 구매 환불/취소/교환 안내</li>
+    
     </ul>
   </div>
   <div class="textbox3">
@@ -231,14 +233,7 @@
 </div>
 
 <div id="section6">
-  <div class="Explanation4">
-    <ul>
-      <li>배송 기간 안내</li>
-      <li>검수 안내</li>
-      <li>구매 환불/취소/교환 안내</li>
-      <li>상품 후기</li>
-    </ul>
-  </div>
+  
   <div class="review2">
     <a>REVIEW</a>
     <p> 상품에 대한 후기를 남기는 공간입니다. 해당 게시판의 성격과 다른 글은 사전동의 없이 무통보 삭제되오니 유의하시길 바랍니다.</p>
@@ -249,6 +244,7 @@
       <option>좋아요 많은순</option>
       <option>조회수 많은순</option>
     </select>
+    <button class="review_button">리뷰 작성하기</button>
     <table class="후기">
      <tr>
        <td>번호</td>
@@ -303,6 +299,26 @@
     </table>
 </div>
 
+<script>
+  $(function(){
+    $(".b1").click(function(){
+      $("#section3").show();
+      $("#section4").hide();
+      $("#section5").hide();
+    });
+    $(".b2").click(function(){
+      $("#section4").show();
+      $("#section3").hide();
+      $("#section5").hide();
+    });
+    $(".b3").click(function(){
+      $("#section5").show();
+      $("#section3").hide();
+      $("#section4").hide();
+    });
+   
+  });
+</script>
 
   <footer>
     <div class="nikeicon1">

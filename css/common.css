@@ -35,11 +35,11 @@ header{width:1110px; height:115px;margin:0 auto;
 .article1{width:200px;height:235px;
 float:left; padding:25px; margin:-20px 0 0 23px;}
 .line{border-right:1px rgb(224, 224, 224) solid;  height:200px;
- margin:20px 0 500px 235px;position:absolute;}
+ margin:20px 0 500px 260px;position:absolute;}
 
 
 
-.section1 img {width:200px; height:235px; float:left; margin:0px; }
+.section1 img {width:250px; height:235px; float:left; margin:0px; }
 .section1 h3{text-decoration:underline; cursor:pointer;}
 
 #s1 h2{margin:10px 0px 0 50px;padding-top:15px;}

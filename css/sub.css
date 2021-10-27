@@ -132,11 +132,10 @@ margin:50px 100px; float:left;}
            margin:0 auto;  width: 1120px;
 }
 
-#section3{width:1120px; height:600px;  margin:0 0 0 560px; 
-          
-}
+#section3{width:1120px; height:600px;  margin:0px  auto; }
+#section3 #Explanation .b1:nth-of-type(1){margin-left: 180px;}
 #Explanation ul{width:1120px; height:50px; 
-            margin:40px auto 0px ;float:left;}
+          margin-top:40px;float:left;}
 #Explanation ul li{width:260px; height:100%;
                 background-color:#eee;
                 text-align:center;
@@ -145,6 +144,7 @@ margin:50px 100px; float:left;}
                 border:1px solid #ddd;
                 border-bottom:solid 1px #000;
                 font-size: 13px;
+                
                 }
 #Explanation ul li:nth-child(1){background-color:#fff;
             border:1px solid #000; 
@@ -153,14 +153,16 @@ margin:50px 100px; float:left;}
 #Explanation h3{float:left;
              font-size: 19px;
             padding:50px 20px 0px;
-            margin-bottom:-20px;}
+            margin-bottom:-20px;
+            margin-left:180px;}
 #textbox h3{float:left;
             font-size: 19px;
             padding:50px 20px 0;
             margin-bottom: -50px;
+            margin-left:180px;
 
 }
-#textbox{width:100%px; height:280px;}
+#textbox{width:100%; height:280px;}
  #textbox ul {display:inline-block;
                         width:1100px;
                         height:280px;
@@ -170,20 +172,22 @@ margin:50px 100px; float:left;}
                          list-style:disc;
                         margin:7px 10px;
                         line-height:30px;
-                        
+                        margin:0 0 0 200px;
                       }
 .Explanation2 ul{width:1120px; height:50px; 
                ;float:left;}   
 
-#section4{width: 1120px;height:600px; margin:0 0 0  560px;
+#section4{width: 1120px;height:600px; margin:0 auto;
            display: none;
         }
 #section4 .Explanation2 ul{width:1120px; height:50px; 
-  margin:40px auto 0px ;float:left;}
+  margin-top:40px; float:left;}
+  #section4 .Explanation2 .b1:nth-of-type(1){margin-left: 180px;}
 .Explanation2 h3{float:left;
     font-size: 19px;
    padding:50px 20px 0px;
-   margin-bottom:-20px;}
+   margin-bottom:-20px;
+    margin-left:180px;}
 .Explanation2 ul li{width:260px; height:100%;
                 background-color:#eee;
                 text-align:center;
@@ -209,17 +213,20 @@ margin:50px 100px; float:left;}
   list-style:disc;
  margin:7px 10px;
  line-height:30px;
+ margin-left:180px;
  
 }
 .textbox2 h3{float:left;
   font-size: 19px;
   padding:50px 20px 0;
-  margin-bottom: -50px;}
+  margin-bottom: -50px;
+  margin-left:180px;}
 
   #section5{width: 1120px; height: 600px;
-             display: none;    margin:0 0 0  560px;   
+             display: none;    margin:0 auto;   
   }
-  #section5 .Explanation3 ul{width: 1120px; height: 50px; margin:40px auto 0px; float:left;}
+  #section5 .Explanation3 ul{width: 1120px; height: 50px; margin-top:40px; float:left;}
+  #section5 .Explanation3 .b1:nth-of-type(1){margin-left: 180px;}
   #section5 .Explanation3 ul li{width:260px; height:100%;
     background-color:#eee;
     text-align:center;
@@ -232,11 +239,13 @@ margin:50px 100px; float:left;}
   .Explanation3 h3{float:left;
       font-size: 19px;
      padding:50px 20px 0px;
-     margin-bottom:-20px;}
+     margin-bottom:-20px;
+     margin-left: 180px;}
   .textbox3 h3{float:left;
     font-size: 19px;
     padding:50px 20px 0;
-    margin-bottom: -50px;}
+    margin-bottom: -50px;
+    margin-left: 180px;}
 
  #section5 .Explanation3 ul li:nth-child(3) {background-color:#fff;
       border:1px solid #000; 
@@ -253,7 +262,7 @@ margin:50px 100px; float:left;}
   list-style:disc;
  margin:7px 10px;
  line-height:30px;
- 
+ margin-left: 180px;
 }
 
 #section6{width: 1120px; height: 600px; margin:0 0 0 450px; }

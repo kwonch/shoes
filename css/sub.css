@@ -12,24 +12,36 @@ table, tr, th ,td {margin:0; padding:0; }
 
 #section{width:1120px; height:600px; 
      margin:0 auto;}
-#section .nike_dunk{width:450px; height:380px; 
+#section .nike_dunk{width:430px; height:380px; 
 margin:50px 100px; float:left;}
+#section .nike_dunk .main_nike_dunk{width: 450px; height: 300px; }
+#section .nike_dunk .main_nike_dunk2{display: none; width: 450px; height: 300px; }
+#section .nike_dunk .main_nike_dunk3{display: none;width: 450px; height: 300px; }
+#section .nike_dunk2{float: left; width: 95px;height: 70px;
+                     margin-top: 20px;cursor: pointer;
+}
+#section .nike_dunk2:nth-of-type(1){margin-left:85px;}
 
 
-#section .구매{width:450px; height:500px;
- float: right; margin:30px 20px 0 0; }
-#section .구매 h3{border-bottom: solid 2px black;display:inline-block;
-                   margin-bottom:-20px;}
+#section .구매{width:450px; height:450px;
+ float: right; margin:30px 20px 0 0; border-top: black solid 2px; border-bottom: black solid 2px; }
+#section .구매 h3{text-decoration: underline;display:inline-block;
+                 }
 #section .구매 .table1 p{font-size:18px; font-weight:400; letter-spacing:-1px; margin-bottom:10px;}
 #section .구매 .table1 span{font-size:13px; ccolor:#999;}
 #section .구매 .table1{line-height:10px;}
 #section #select{width:100px;
                 height: 30px;
-                margin:10px 0 30px 70px;} 
+                margin:10px 0 30px -20px;} 
+#section .table2 {border-spacing: 0;}
+#section .table2 .bar2{border-bottom: 1px #bebebe solid; }
+#section .table2 h2{ margin-left:-20px;}
 
-#section .table2 h2{ margin-left:50px;}
 
-#section .table2 .free_shipping {margin:0 0 0 70px; display: block;}
+                        
+
+#section .table2 .free_shipping {margin:0px 0 0 -20px; display: block;}
+
 #section .table2 .b1{width:200px;
                     height:50px;
                     border-radius: 10px;
@@ -57,7 +69,7 @@ margin:50px 100px; float:left;}
               }
 #section .table2 .shipping{
                            height: 36px;
-                        margin:-5px 0 0 10px;
+                        margin:-10px 0 0 10px;
                              position: absolute;   }
 #section .table2 .b1 img{ width: 40px; height: 35px;
                           float: right;
@@ -71,9 +83,19 @@ margin:50px 100px; float:left;}
                         position: absolute;
                          right:10px; 
                        }                    
+#section .구매 .bookmark {width: 430px;height:30px;text-align: center; margin:13px 0 0 0px;
+                          border:2px solid black; border-radius: 5px; box-sizing: border-box;
+}
 
+#section .구매 .share{height: 10px; font-size: 13px; margin:20px 0 0 0px; font-weight: bold; padding: -20px 0 0 0px;;}
+
+
+#section .구매 .book{ height: 20px; margin: 0px 0 0 0px; position: absolute;}
+
+#section .구매 .sh{ height: 20px; position:absolute; padding:0px 0 0 5px; }
 
 #section2{width:1120px; height:1000px; margin:0 auto;}
+#section2 .bar{border-bottom: solid #ebebeb 1px;}
 #section2 .section2img .best{width:230px;
              height: 210px; 
             
@@ -265,24 +287,24 @@ margin:50px 100px; float:left;}
  margin-left: 180px;
 }
 
-#section6{width: 1120px; height: 600px; margin:0 0 0 450px; }
+#section6{width: 1120px; height: 600px; margin:0 auto; }
 
 
 
 
    .review2{float:left;
             width: 90%;
-            margin:60px 0 0 0px;
+            margin:60px 0 0 70px;
   }
   .review2 a{font-weight: bold;}
   .review2 p{font-size:13px;}
    .review{float:right;
-          margin:-40px 100px 0 0px;
+          margin:-40px 100px 0 70px;
           width: 120px;
           height: 30px;
   }
   .후기{ height:400px; display: inline-block;
-        margin:20px 0 0 0px;
+        margin:20px 0 0 70px;
           border-bottom: none;
           border-top: 3px solid black;
           border-spacing: 0;
@@ -304,9 +326,9 @@ margin:50px 100px; float:left;}
         width: 130px; height:30px;
         background-color: #000;
         color: white;
+        margin-left: 70px;
   }
-.
+
 
 
         
-}

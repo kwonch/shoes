@@ -42,9 +42,35 @@
   
 <div id="section">
   <div class="nike_dunk">
-    <img src="sub/nike_dunk.jpg">
+    <img class="main_nike_dunk" src="sub/nike_dunk.jpg">
+    <img class="main_nike_dunk2" src="sub/nike_dunk2.jpg">
+    <img class="main_nike_dunk3" src="sub/nike_dunk3.jpg">
+    
+    <div class="sub_nike">
+      <img class="nike_dunk2" src="sub/nike_dunk.jpg">
+      <img class="nike_dunk2" src="sub/nike_dunk2.jpg">
+      <img class="nike_dunk2" src="sub/nike_dunk3.jpg">
+    </div>
   </div>
-
+  <script>
+    $(function(){
+      $("#section .nike_dunk2:nth-of-type(1)").click(function(){
+        $("#section .nike_dunk .main_nike_dunk").show();
+        $("#section .nike_dunk .main_nike_dunk2").hide();
+        $("#section .nike_dunk .main_nike_dunk3").hide();
+      });
+      $("#section .nike_dunk2:nth-of-type(2)").click(function(){
+        $("#section .nike_dunk .main_nike_dunk").hide();
+        $("#section .nike_dunk .main_nike_dunk2").show();
+        $("#section .nike_dunk .main_nike_dunk3").hide();
+      });
+      $("#section .nike_dunk2:nth-of-type(3)").click(function(){
+        $("#section .nike_dunk .main_nike_dunk").hide();
+        $("#section .nike_dunk .main_nike_dunk2").hide();
+        $("#section .nike_dunk .main_nike_dunk3").show();
+      });
+    });
+  </script>
   <div class="구매">
     <table class="table1">
       <tr>
@@ -57,13 +83,13 @@
 
       <table class="table2">
         <tr>
-          <td>최근 거래가</td>
-          <td>
+          <td class="bar2">최근 거래가</td>
+          <td class="bar2">
             <h2>385,000원</h2>
           </td>
         </tr>
       <tr>
-     
+    
       </tr>
       </tr>
         <tr>
@@ -92,11 +118,14 @@
         </tr>
 
       </table>
+      <div class="bookmark">관심상품<img class="book" src="sub/bookmrk.png"></div>
+      <div class="share">공유하기<img class="sh" src="sub/share.png"></div>
   </div>
+  
 </div>
 
 <div id="section2">
- 
+  <div class="bar"></div>
   <div class="section2img">
    <h3>추천상품</h3>
     <div class="best"><a href="#"><img src="sub/sub_nike.jpg"></a>

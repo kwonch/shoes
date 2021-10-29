@@ -28,11 +28,12 @@ margin:50px 100px; float:left;}
 #section .구매 h3{text-decoration: underline;display:inline-block;
                  }
 #section .구매 .table1 p{font-size:18px; font-weight:400; letter-spacing:-1px; margin-bottom:10px;}
-#section .구매 .table1 span{font-size:13px; ccolor:#999;}
+#section .구매 .table1 span{font-size:13px; color:#999;}
 #section .구매 .table1{line-height:10px;}
 #section #select{width:100px;
                 height: 30px;
-                margin:10px 0 30px -20px;} 
+                margin:10px 0 30px -20px;
+                cursor:pointer;} 
 #section .table2 {border-spacing: 0;}
 #section .table2 .bar2{border-bottom: 1px #bebebe solid; }
 #section .table2 h2{ margin-left:-20px;}
@@ -45,20 +46,20 @@ margin:50px 100px; float:left;}
 #section .table2 .b1{width:200px;
                     height:50px;
                     border-radius: 10px;
-                    background-color: tan;
+                    background-color: rgb(104, 160, 21);
                     font-size: 20px;
-                    color:white;
+                    color:#fff;
                     border:none;
                     cursor:pointer;
                    margin:30px 0 0 10px;
                    font-weight:600;
                   position: relative;
-                  
-              }
+                }
+#section .table2 .b1:hover{background-color: rgb(17, 104, 6); transition:0.3s ease;}
  #section .table2 .b2{width:200px;
                 height:50px;
                 border-radius: 10px;
-                background-color: thistle;
+                background-color:dimgray;
                 font-size: 20px;
                 color:white;
                 border:none;
@@ -67,6 +68,7 @@ margin:50px 100px; float:left;}
                 font-weight:600;
                 position: relative;
               }
+#section .table2 .b2:hover{background-color:rgb(54, 53, 53) ; transition:0.3s  ease ;}
 #section .table2 .shipping{
                            height: 36px;
                         margin:-10px 0 0 10px;
@@ -85,14 +87,15 @@ margin:50px 100px; float:left;}
                        }                    
 #section .구매 .bookmark {width: 430px;height:30px;text-align: center; margin:13px 0 0 0px;
                           border:2px solid black; border-radius: 5px; box-sizing: border-box;
+                        cursor:pointer;
 }
 
-#section .구매 .share{height: 10px; font-size: 13px; margin:20px 0 0 0px; font-weight: bold; padding: -20px 0 0 0px;;}
+#section .구매 .share{height: 10px; font-size: 13px; margin:20px 0 0 0px; font-weight: bold; padding: -20px 0 0 0px;cursor: pointer;}
 
 
 #section .구매 .book{ height: 20px; margin: 0px 0 0 0px; position: absolute;}
 
-#section .구매 .sh{ height: 20px; position:absolute; padding:0px 0 0 5px; }
+#section .구매 .sh{ height: 20px; position:absolute; padding:0px 0 0 5px;  }
 
 #section2{width:1120px; height:1000px; margin:0 auto;}
 #section2 .bar{border-bottom: solid #ebebeb 1px;}
@@ -120,6 +123,7 @@ margin:50px 100px; float:left;}
                     float:left;
                     border-radius: 10px;
                     }
+#section2  .borderright {border-right: solid #ebebeb 1px; height: 170px; margin:20px -10px 0 0px;}
 #section2 .best2 img{width: 200px; height: 200px;
                      margin:5px 0 0 15px;
                      float:left;
@@ -138,7 +142,7 @@ margin:50px 100px; float:left;}
 #section2 .section2img2 .best2 h4 { text-decoration: underline; margin:0px 0 15px 15px; }
 #section2 .section2img2 .best2 p {font-size:13px;margin:0 0 15px 15px; }  
 
-.sub_line{border-bottom:1px solid #ebebeb;;margin:90px 0 -50px;}
+.sub_line{border-bottom:1px solid #ebebeb;;margin:90px 0 -50px; width: 1120px;}
 
 #section2 .best:nth-of-type(1){ margin:80px 0 0 70px;}
 #section2 .best:nth-of-type(2){margin:80px 0 0 18px;}
@@ -166,6 +170,7 @@ margin:50px 100px; float:left;}
                 border:1px solid #ddd;
                 border-bottom:solid 1px #000;
                 font-size: 13px;
+                cursor: pointer;
                 
                 }
 #Explanation ul li:nth-child(1){background-color:#fff;
@@ -218,6 +223,7 @@ margin:50px 100px; float:left;}
                 border:1px solid #ddd;
                 border-bottom:solid 1px #000;
                 font-size: 13px;
+                cursor: pointer;
                 }
 .Explanation2 ul li:nth-child(2){background-color:#fff;
                   border:1px solid #000; 
@@ -257,6 +263,7 @@ margin:50px 100px; float:left;}
     border:1px solid #ddd;
     border-bottom:solid 1px #000;
     font-size: 13px;
+    cursor: pointer;
     }
   .Explanation3 h3{float:left;
       font-size: 19px;
@@ -302,6 +309,7 @@ margin:50px 100px; float:left;}
           margin:-40px 100px 0 70px;
           width: 120px;
           height: 30px;
+          cursor: pointer;
   }
   .후기{ height:400px; display: inline-block;
         margin:20px 0 0 70px;
@@ -327,6 +335,7 @@ margin:50px 100px; float:left;}
         background-color: #000;
         color: white;
         margin-left: 70px;
+        cursor: pointer;
   }
 
 

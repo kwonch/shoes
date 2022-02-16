@@ -90,12 +90,14 @@ margin:50px 100px; float:left;}
                         cursor:pointer;
 }
 
-#section .구매 .share{height: 10px; font-size: 13px; margin:20px 0 0 0px; font-weight: bold; padding: -20px 0 0 0px;cursor: pointer;}
+#section .구매 .share{height: 10px; font-size: 13px; margin:20px 0 0 0px; font-weight: bold; cursor: pointer; }
+
+
 
 
 #section .구매 .book{ height: 20px; margin: 0px 0 0 0px; position: absolute;}
 
-#section .구매 .sh{ height: 20px; position:absolute; padding:0px 0 0 5px;  }
+#section .구매 .sh{ height: 18px; padding:0px 0 0 5px; vertical-align:text-bottom; }
 
 #section2{width:1120px; height:1000px; margin:0 auto;}
 #section2 .bar{border-bottom: solid #ebebeb 1px;}
@@ -330,7 +332,7 @@ margin:50px 100px; float:left;}
   .후기 td:nth-of-type(6){padding:0 0 0 40px;}
   .review_button{float:left;
         font-size: 15px;
-        border:1px solid black;
+        border:1px solid ;
         width: 130px; height:30px;
         background-color: #000;
         color: white;
